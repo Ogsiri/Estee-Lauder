@@ -17,6 +17,7 @@
 		7F6471AD285839A4008ADCF9 /* Estee_LauderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F6471AC285839A4008ADCF9 /* Estee_LauderTests.swift */; };
 		7F6471B7285839A4008ADCF9 /* Estee_LauderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F6471B6285839A4008ADCF9 /* Estee_LauderUITests.swift */; };
 		7F6471B9285839A4008ADCF9 /* Estee_LauderUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F6471B8285839A4008ADCF9 /* Estee_LauderUITestsLaunchTests.swift */; };
+		7F647279285AD66F008ADCF9 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F647278285AD66F008ADCF9 /* FirstViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		7F6471B2285839A4008ADCF9 /* Estee LauderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Estee LauderUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F6471B6285839A4008ADCF9 /* Estee_LauderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Estee_LauderUITests.swift; sourceTree = "<group>"; };
 		7F6471B8285839A4008ADCF9 /* Estee_LauderUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Estee_LauderUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7F647278285AD66F008ADCF9 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 		7F647191285839A0008ADCF9 /* Estee Lauder */ = {
 			isa = PBXGroup;
 			children = (
+				7F647273285AC604008ADCF9 /* Components */,
 				7F647192285839A0008ADCF9 /* AppDelegate.swift */,
 				7F647194285839A0008ADCF9 /* SceneDelegate.swift */,
 				7F647196285839A0008ADCF9 /* ViewController.swift */,
@@ -109,6 +112,7 @@
 				7F6471A0285839A3008ADCF9 /* LaunchScreen.storyboard */,
 				7F6471A3285839A3008ADCF9 /* Info.plist */,
 				7F64719B285839A0008ADCF9 /* Estee_Lauder.xcdatamodeld */,
+				7F647278285AD66F008ADCF9 /* FirstViewController.swift */,
 			);
 			path = "Estee Lauder";
 			sourceTree = "<group>";
@@ -128,6 +132,13 @@
 				7F6471B8285839A4008ADCF9 /* Estee_LauderUITestsLaunchTests.swift */,
 			);
 			path = "Estee LauderUITests";
+			sourceTree = "<group>";
+		};
+		7F647273285AC604008ADCF9 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,6 +272,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7F647279285AD66F008ADCF9 /* FirstViewController.swift in Sources */,
 				7F647197285839A0008ADCF9 /* ViewController.swift in Sources */,
 				7F647193285839A0008ADCF9 /* AppDelegate.swift in Sources */,
 				7F647195285839A0008ADCF9 /* SceneDelegate.swift in Sources */,
