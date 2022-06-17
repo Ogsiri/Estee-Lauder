@@ -467,6 +467,9 @@
                                         </fragment>
                                     </attributedString>
                                 </buttonConfiguration>
+                                <connections>
+                                    <segue destination="AXT-f4-mbz" kind="presentation" modalPresentationStyle="fullScreen" id="GO5-Mh-Ezy"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="1.0 OZ" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MkU-J1-4E5">
                                 <rect key="frame" x="21" y="597" width="49" height="21"/>
@@ -506,6 +509,7 @@
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="HyO-va-eSK"/>
+        <segue reference="GO5-Mh-Ezy"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="Screen Shot 2022-06-13 at 11.40.25 PM" width="1367" height="1370"/>
